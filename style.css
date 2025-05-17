@@ -62,3 +62,27 @@ section {
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.271);
 }
 
+/* === Project Section Styling === */
+.project-img {
+  height: 200px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.card-body .btn {
+  margin-top: auto;
+  width: 100%;
+}
+
+/* Optional: Add hover effect for project cards */
+.card:hover {
+  transform: translateY(-5px);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
